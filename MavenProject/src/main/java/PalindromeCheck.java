@@ -1,6 +1,6 @@
 
 public class PalindromeCheck {
-	 public static void Palindrome(String str) {
+	 public static boolean Palindrome(String str) {
 	        int left = 0;
 	        int right = str.length() - 1;
 
@@ -12,7 +12,7 @@ public class PalindromeCheck {
 	            right--;
 	        }
 	        return true; // It is a palindrome
-	    }
+	 }
 
 	public static void main(String[] args) {
 		 String[] words = {"java", "malayalam"};
@@ -25,5 +25,6 @@ public class PalindromeCheck {
 		// TODO Auto-generated method stub
 
 	}
-
+}
+	}
 }
